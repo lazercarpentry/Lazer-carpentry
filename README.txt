@@ -1,15 +1,10 @@
-LAZER CARPENTRY WEBSITE V16
+LAZER CARPENTRY WEBSITE V17
 
 Updates included:
-- Mobile/iOS banner refined again.
-- Removed the red divider lines after Precision Carpentry and High Quality Craftsmanship on mobile only.
-- Tightened the mobile-only gap between the 04 Deck's & Pergola's service card and the Residential capability box.
+- iOS/mobile banner refined again.
+- Removed the long horizontal red line on the mobile banner.
+- Kept only the two short vertical red dividers on mobile.
+- Forced "FOR BUILDERS WHO EXPECT MORE" onto one line on mobile.
+- Existing 04-to-Residential spacing fix preserved.
 - Desktop layout unchanged.
-- Cache-busting updated to v=16.
-
-Upload instructions:
-1. Keep the existing CNAME file in GitHub.
-2. Upload every file from this V16 folder into the main repository level.
-3. Replace existing files when prompted.
-4. Commit the changes.
-5. Wait for GitHub Pages to redeploy, then hard refresh the live site.
+- Cache-busting updated to v=17.
