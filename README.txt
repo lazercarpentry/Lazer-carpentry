@@ -1,19 +1,14 @@
-LAZER CARPENTRY WEBSITE V12
+LAZER CARPENTRY WEBSITE V13
 
 Updates included:
-- Removed the small front-page feature box.
-- Updated the banner below the hero to span across the page with:
-  - For builders who expect more
-  - Precision carpentry
-  - We show up
-  - High quality craftsmanship
-  - Built right the first time
-- Moved the paragraph text beside Capable Crews and Our Recent Projects higher on desktop.
-- Cache-busting updated to v=12.
+- Added visible red line dividers between the short banner phrases.
+- Fixed the hero sentence so "lock-up" stays on one line.
+- Re-centered the paragraph text beside Capable Crews and Our Recent Projects on desktop.
+- Cache-busting updated to v=13.
 
 Upload instructions:
 1. Keep the existing CNAME file in GitHub.
-2. Upload every file from this V12 folder into the main repository level.
+2. Upload every file from this V13 folder into the main repository level.
 3. Replace existing files when prompted.
 4. Commit the changes.
 5. Wait for GitHub Pages to redeploy, then hard refresh the live site.
