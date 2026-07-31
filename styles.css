@@ -40,11 +40,7 @@
   }
   .strip span:nth-of-type(1){grid-column:1;grid-row:1;font-size:8.6px !important;letter-spacing:1.15px !important;}
   .strip i:nth-of-type(1){grid-column:2;grid-row:1;}
-  .strip span:nth-of-type(2){grid-column:3;grid-row:1;}
-  .strip span:nth-of-type(3){grid-column:1;grid-row:2;}
-  .strip i:nth-of-type(3){grid-column:2;grid-row:2;}
-  .strip span:nth-of-type(4){grid-column:3;grid-row:2;}
-  .strip span:nth-of-type(5){
+  .strip span:nth-of-type(2){
     grid-column:1 / -1 !important;
     grid-row:3 !important;
     justify-self:center !important;
@@ -53,6 +49,10 @@
     padding-top:0 !important;
     margin-top:2px !important;
   }
+  .strip span:nth-of-type(3){grid-column:1;grid-row:2;}
+  .strip i:nth-of-type(3){grid-column:2;grid-row:2;}
+  .strip span:nth-of-type(4){grid-column:3;grid-row:2;}
+  .strip span:nth-of-type(5){grid-column:3;grid-row:1;font-size:8.8px !important;letter-spacing:1.2px !important;}
 
   /* Tighten the mobile gap between service 04 and the Residential capability section */
   #services.section{
