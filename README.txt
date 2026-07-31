@@ -1,26 +1,12 @@
-LAZER CARPENTRY WEBSITE V7
+LAZER CARPENTRY WEBSITE V8
 
-Updates included:
-- Hero background changed to the new supplied steel frame aerial photo.
-- Logo badges are now transparent so the background comes through.
-- Project captions updated exactly as requested.
-- Cache-busting version updated to v=7.
+Update included:
+- Replaced the current black-text logo with the white-text transparent logo.
+- Cache-busting updated to v=8 so GitHub Pages should pick up the logo change faster.
 
-Project caption updates:
-- MIO → Frame Package
-- Marcus Clarke → removed Re-Clad from the main title
-- Moment → Full Carpentry Package
-- Acacia → Frame Package
-- Forrest → removed Re-Clad from the main title
-- Goulburn Project → Full Carpentry Package
-- Timber Projects → red wording Timber Frames
-- Precision Work → red wording Detailed Works
-- Flooring Projects → red wording Flooring
-- Cladding → red wording External Carpentry
-
-Upload instructions:
-1. Keep the CNAME file in GitHub.
-2. Upload all files from this folder into the main repo level beside CNAME.
-3. Replace existing files when prompted.
-4. Commit the changes.
-5. Wait 1–2 minutes for GitHub Pages to redeploy, then refresh the site.
+Upload steps:
+1. Keep CNAME.
+2. Upload all files from this V8 folder to the repo root.
+3. Replace existing files.
+4. Commit changes.
+5. Refresh the site after deployment.
