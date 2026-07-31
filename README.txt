@@ -1,32 +1,26 @@
-LAZER CARPENTRY WEBSITE UPDATE
+LAZER CARPENTRY WEBSITE V3
 
-This version removes the broken logo image dependency by using built-in HTML/CSS wordmarks. The project cards now use CSS background images, so missing assets will not show broken blue image icons.
+Upload every file from this folder directly into the main GitHub repository beside the existing CNAME file.
+Do not delete CNAME.
+Do not upload the ZIP itself.
 
-UPLOAD TO GITHUB
+IMPORTANT: the image files are intentionally at the repository root, not inside an assets folder.
 
-1. Keep the existing CNAME file in GitHub. Do not delete it.
-2. Unzip this package.
-3. Upload these items directly into the main repository level:
-   - index.html
-   - styles.css
-   - script.js
-   - README.txt
-   - assets folder
-4. Do not upload the ZIP file itself.
-5. Do not upload an extra outer folder. The files must sit beside CNAME.
-6. Commit the changes.
-
-Correct structure:
+Required structure:
 CNAME
-README.txt
 index.html
-script.js
 styles.css
-assets/
-
-Changes included:
-- Built-in Lazer wordmark so the logo no longer breaks.
-- Service card 04 changed to Decks & Pergola’s.
-- Projects section changed to PROJECT PORTFOLIO / OUR RECENT PROJECTS / Proven across multiple sectors.
-- Project names kept exactly in the requested order.
-- Red "Need a Reliable Carpentry Crew?" section left unchanged.
+script.js
+hero.jpg
+project-steel.jpg
+project-reclad.jpg
+project-townhouse.jpg
+project-frame.jpg
+project-fc.jpg
+project-feature.jpg
+project-retail.jpg
+project-cladding.jpg
+logo.png
+logo-white.png
+logo-color.png
+README.txt
