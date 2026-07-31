@@ -1,17 +1,21 @@
-MISSING GALLERY PHOTOS FIX
+LAZER CARPENTRY WEBSITE V21 - TRUST SECTIONS
 
-This ZIP only contains the gallery files/photos for:
-- Tools
-- Shop Fit-Outs
-- Timber Projects
+Updates included:
+- Added a Fully Licensed / Fully Insured / Builder Ready section.
+- Added a testimonial-style section.
+- Added a FAQ accordion section.
+- Added FAQ to the top navigation.
+- All previous project galleries and mobile fixes are preserved.
+- Cache-busting updated to v=21.
+
+Important:
+The testimonial copy is draft wording. Replace it with exact real client/Google reviews once you have them.
 
 Upload instructions:
-1. Open this ZIP.
-2. Go inside the unzipped folder.
-3. Select every file inside it.
-4. Upload those files to the main/root level of your GitHub repository.
-5. Replace existing files if GitHub asks.
-6. Do not delete anything else.
-7. Wait 1-2 minutes, then hard refresh the live site.
-
-These files must sit beside index.html, styles.css and CNAME, not inside a new folder.
+1. Open this ZIP and go inside the unzipped V21 folder.
+2. Select every file inside the folder.
+3. Upload all selected files to the main GitHub repository level.
+4. Replace existing files when prompted.
+5. Keep the existing CNAME file.
+6. Commit the upload.
+7. Wait 1-3 minutes, then hard refresh the live site.
