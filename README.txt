@@ -1,18 +1,18 @@
-LAZER CARPENTRY WEBSITE V21 - TRUST SECTIONS
+LAZER CARPENTRY WEBSITE V22 - REVIEWS
 
 Updates included:
-- Added a Fully Licensed / Fully Insured / Builder Ready section.
-- Added a testimonial-style section.
-- Added a FAQ accordion section.
-- Added FAQ to the top navigation.
-- All previous project galleries and mobile fixes are preserved.
-- Cache-busting updated to v=21.
-
-Important:
-The testimonial copy is draft wording. Replace it with exact real client/Google reviews once you have them.
+- Replaced the testimonial draft copy with 3 client review-style testimonials:
+  - AusSteel
+  - Achieve Homes
+  - Katy
+- Added 5-star review text/stars to each testimonial.
+- Changed the testimonial section heading to: WHAT OUR CLIENTS SAY.
+- Changed the paragraph beside the review heading to stronger client-focused copy.
+- All previous gallery fixes, FAQ, licensing/insurance section and mobile fixes are preserved.
+- Cache-busting updated to v=22.
 
 Upload instructions:
-1. Open this ZIP and go inside the unzipped V21 folder.
+1. Open this ZIP and go inside the unzipped V22 folder.
 2. Select every file inside the folder.
 3. Upload all selected files to the main GitHub repository level.
 4. Replace existing files when prompted.
