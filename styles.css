@@ -4,3 +4,64 @@
 
 
 .nowrap{white-space:nowrap}
+
+@media(max-width:580px){
+  /* Planned mobile banner layout */
+  .strip{
+    display:grid !important;
+    grid-template-columns:1fr auto 1fr !important;
+    justify-content:initial !important;
+    align-items:center !important;
+    gap:12px 14px !important;
+    padding:22px 7vw !important;
+    font-size:10px !important;
+    letter-spacing:1.55px !important;
+    text-align:left !important;
+    flex-wrap:initial !important;
+  }
+  .strip span{
+    border-left:0 !important;
+    padding-left:0 !important;
+    line-height:1.35 !important;
+  }
+  .strip i{
+    display:block !important;
+    width:2px !important;
+    height:16px !important;
+    background:var(--red) !important;
+    align-self:center !important;
+    justify-self:center !important;
+  }
+  /* Remove the red dividers after Precision Carpentry and High Quality Craftsmanship on iOS/mobile */
+  .strip i:nth-of-type(2),
+  .strip i:nth-of-type(4){
+    display:none !important;
+  }
+  .strip span:nth-of-type(5){
+    grid-column:1 / -1 !important;
+    justify-self:center !important;
+    text-align:center !important;
+    border-top:2px solid var(--red) !important;
+    padding-top:10px !important;
+    margin-top:0 !important;
+  }
+
+  /* Tighten the mobile gap between service 04 and the Residential capability section */
+  #services.section{
+    padding-bottom:0 !important;
+  }
+  #services .cards{
+    margin-bottom:0 !important;
+  }
+  #services .cards article{
+    min-height:auto !important;
+  }
+  #services .cards article:last-child{
+    padding-bottom:26px !important;
+    margin-bottom:0 !important;
+    border-bottom:0 !important;
+  }
+  .capability-band{
+    margin-top:0 !important;
+  }
+}
