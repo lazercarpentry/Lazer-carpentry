@@ -1,10 +1,32 @@
-LAZER CARPENTRY WEBSITE — UPDATED VERSION
+LAZER CARPENTRY WEBSITE UPDATE
 
-Main updates:
-- New hero with Lazer logo and “THE STEEL FRAME SPECIALISTS.”
-- Revised complete carpentry scope from frame stage through lock-up, fix-out, fit-off and cladding.
-- Projects renamed and ordered exactly as requested.
-- Red “Need a reliable carpentry crew?” section retained unchanged.
-- Transparent logo files included to prevent white-square display issues.
+This version removes the broken logo image dependency by using built-in HTML/CSS wordmarks. The project cards now use CSS background images, so missing assets will not show broken blue image icons.
 
-Upload all files and folders in this package to your website repository.
+UPLOAD TO GITHUB
+
+1. Keep the existing CNAME file in GitHub. Do not delete it.
+2. Unzip this package.
+3. Upload these items directly into the main repository level:
+   - index.html
+   - styles.css
+   - script.js
+   - README.txt
+   - assets folder
+4. Do not upload the ZIP file itself.
+5. Do not upload an extra outer folder. The files must sit beside CNAME.
+6. Commit the changes.
+
+Correct structure:
+CNAME
+README.txt
+index.html
+script.js
+styles.css
+assets/
+
+Changes included:
+- Built-in Lazer wordmark so the logo no longer breaks.
+- Service card 04 changed to Decks & Pergola’s.
+- Projects section changed to PROJECT PORTFOLIO / OUR RECENT PROJECTS / Proven across multiple sectors.
+- Project names kept exactly in the requested order.
+- Red "Need a Reliable Carpentry Crew?" section left unchanged.
