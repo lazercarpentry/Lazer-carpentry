@@ -1,40 +1,31 @@
-LAZER CARPENTRY WEBSITE V4
+LAZER CARPENTRY WEBSITE V6
 
-This version uses the actual Lazer logo image, not a typed CSS replacement.
-Project cards now use real image tags instead of CSS-only backgrounds, with cache-busting file links.
+Updates included:
+- Project order updated to the latest requested order.
+- Added projects: Goulburn Project and Flooring.
+- Logo on the site now uses the actual logo artwork (not text).
+- Hero background kept from the previous approved version.
+- Project cards now use the newly attached project photos.
 
-UPLOAD TO GITHUB
-1. Keep the existing CNAME file. Do not delete it.
-2. Unzip this package.
-3. Upload every file inside this folder directly into the main GitHub repository level.
-4. Do not upload the ZIP file itself.
-5. Do not upload an extra outer folder.
-6. Commit the changes.
+Project order:
+1. MIO
+2. Marcus Clarke Re-Clad
+3. Moment
+4. Acacia
+5. Forrest Re-Clad
+6. Goulburn Project
+7. Timber Frames
+8. Deck's & Pergola's
+9. Shop Fit-Outs
+10. Detailed Works
+11. Flooring
+12. Cladding
+13. The Right Tools For The Job
 
-Correct structure:
-CNAME
-README.txt
-index.html
-script.js
-styles.css
-hero.jpg
-project-steel.jpg
-project-reclad.jpg
-project-townhouse.jpg
-project-frame.jpg
-project-fc.jpg
-project-feature.jpg
-project-retail.jpg
-project-cladding.jpg
-lazer-logo-white.png
-lazer-logo-color.png
-logo.png
-logo-white.png
-logo-color.png
-
-Changes included:
-- Actual Lazer logo applied to header, hero and footer.
-- Service card 04 changed to Decks & Pergola’s.
-- Project cards display real images instead of black/red fallback gradients.
-- Project names kept in the requested order.
-- Red "Need a Reliable Carpentry Crew?" section left unchanged.
+Upload instructions:
+1. Open your GitHub repository.
+2. Keep the existing CNAME file in the repo.
+3. Upload all files from this folder beside CNAME.
+4. Replace existing files when prompted.
+5. Commit the changes.
+6. Refresh the live site after GitHub Pages redeploys.
