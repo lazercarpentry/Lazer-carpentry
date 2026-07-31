@@ -1,12 +1,14 @@
-LAZER CARPENTRY WEBSITE V8
+LAZER CARPENTRY WEBSITE V9
 
-Update included:
-- Replaced the current black-text logo with the white-text transparent logo.
-- Cache-busting updated to v=8 so GitHub Pages should pick up the logo change faster.
+Updates included:
+- Replaced Timber, Flooring and Detailed Works cover photos with the latest supplied images.
+- Cleaned the white transparent logo to reduce the small white outline around the red carpentry text.
+- Removed the awkward divider line between the 04 Deck's & Pergola's service card and the grey capability section.
+- Cache-busting updated to v=9.
 
-Upload steps:
-1. Keep CNAME.
-2. Upload all files from this V8 folder to the repo root.
-3. Replace existing files.
-4. Commit changes.
-5. Refresh the site after deployment.
+Upload instructions:
+1. Keep the existing CNAME file in GitHub.
+2. Upload every file from this V9 folder into the main repository level.
+3. Replace existing files when prompted.
+4. Commit the changes.
+5. Wait for GitHub Pages to redeploy, then hard refresh the live site.
