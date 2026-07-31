@@ -1,31 +1,26 @@
-LAZER CARPENTRY WEBSITE V6
+LAZER CARPENTRY WEBSITE V7
 
 Updates included:
-- Project order updated to the latest requested order.
-- Added projects: Goulburn Project and Flooring.
-- Logo on the site now uses the actual logo artwork (not text).
-- Hero background kept from the previous approved version.
-- Project cards now use the newly attached project photos.
+- Hero background changed to the new supplied steel frame aerial photo.
+- Logo badges are now transparent so the background comes through.
+- Project captions updated exactly as requested.
+- Cache-busting version updated to v=7.
 
-Project order:
-1. MIO
-2. Marcus Clarke Re-Clad
-3. Moment
-4. Acacia
-5. Forrest Re-Clad
-6. Goulburn Project
-7. Timber Frames
-8. Deck's & Pergola's
-9. Shop Fit-Outs
-10. Detailed Works
-11. Flooring
-12. Cladding
-13. The Right Tools For The Job
+Project caption updates:
+- MIO → Frame Package
+- Marcus Clarke → removed Re-Clad from the main title
+- Moment → Full Carpentry Package
+- Acacia → Frame Package
+- Forrest → removed Re-Clad from the main title
+- Goulburn Project → Full Carpentry Package
+- Timber Projects → red wording Timber Frames
+- Precision Work → red wording Detailed Works
+- Flooring Projects → red wording Flooring
+- Cladding → red wording External Carpentry
 
 Upload instructions:
-1. Open your GitHub repository.
-2. Keep the existing CNAME file in the repo.
-3. Upload all files from this folder beside CNAME.
-4. Replace existing files when prompted.
-5. Commit the changes.
-6. Refresh the live site after GitHub Pages redeploys.
+1. Keep the CNAME file in GitHub.
+2. Upload all files from this folder into the main repo level beside CNAME.
+3. Replace existing files when prompted.
+4. Commit the changes.
+5. Wait 1–2 minutes for GitHub Pages to redeploy, then refresh the site.
