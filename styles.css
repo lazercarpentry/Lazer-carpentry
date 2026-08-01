@@ -380,3 +380,73 @@ footer{background:
 @media(prefers-reduced-motion:reduce){
   .arch-shape,.hero-bg,.cta:before{animation:none!important}
 }
+
+
+/* V28 Cleaner Premium Pass */
+/* Pull back crowded V27 architectural overlays on the first screen. */
+.ambient-architecture{display:none!important}
+.hero:before,.hero-inner:before,.hero-inner:after{display:none!important}
+
+/* Keep project images cleaner and more visible. */
+.project figcaption:before{display:none!important}
+.project:after{background:radial-gradient(circle at 86% 20%,rgba(226,26,22,.08),transparent 28%)!important}
+.project-card:before{background:radial-gradient(circle 190px at var(--mx,50%) var(--my,50%),rgba(226,26,22,.16),transparent 62%)!important}
+.project>img{opacity:1!important;filter:contrast(1.03) saturate(1.02)!important}
+.project:before{background:linear-gradient(180deg,rgba(0,0,0,.02),rgba(0,0,0,.18) 48%,rgba(0,0,0,.78))!important}
+.project:hover:before{background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.12) 48%,rgba(0,0,0,.68))!important}
+
+/* Lighter, cleaner hero premium treatment. */
+.hero-lines{opacity:.13!important}
+.hero-noise{opacity:.055!important}
+.hero-proof span{background:rgba(10,10,10,.34);border-color:rgba(255,255,255,.12)}
+.hero-proof strong{color:#fff}
+
+/* Premium detail added below projects so the lower half matches the top without crowding images. */
+.delivery-standard{background:#f6f6f6;color:#111;position:relative;overflow:hidden}
+.delivery-standard:before{content:"";position:absolute;inset:0;background:
+  linear-gradient(rgba(0,0,0,.035) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(0,0,0,.035) 1px,transparent 1px);
+background-size:70px 70px;opacity:.7;mask-image:linear-gradient(115deg,#000,transparent 78%);pointer-events:none}
+.delivery-standard:after{content:"";position:absolute;right:-170px;top:80px;width:440px;height:440px;border:1px solid rgba(226,26,22,.12);transform:rotate(20deg);pointer-events:none}
+.standard-inner{max-width:1480px;margin:0 auto 42px;display:grid;grid-template-columns:1fr 1fr;gap:32px 72px;align-items:end;position:relative;z-index:1}
+.standard-inner .eyebrow{grid-column:1/-1;margin-bottom:-8px}
+.standard-inner h2{font-size:clamp(48px,6vw,92px);line-height:.9;margin:0;letter-spacing:-1px}
+.standard-inner h2:after{content:"";display:block;width:78px;height:4px;background:var(--red);margin-top:22px;box-shadow:0 0 18px rgba(226,26,22,.28)}
+.standard-inner p{font-size:18px;line-height:1.75;color:#555;max-width:650px;margin:0}
+.standard-grid{max-width:1480px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;position:relative;z-index:1}
+.standard-grid article{background:#fff;border:1px solid rgba(0,0,0,.08);padding:34px 30px;min-height:230px;box-shadow:0 18px 45px rgba(0,0,0,.06);transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease}
+.standard-grid article:hover{transform:translateY(-7px);box-shadow:0 28px 70px rgba(0,0,0,.11);border-color:rgba(226,26,22,.28)}
+.standard-grid span{color:var(--red);font-family:Oswald,Arial,sans-serif;letter-spacing:1.6px;font-size:14px}
+.standard-grid strong{display:block;margin:18px 0 12px;font-family:Oswald,Arial,sans-serif;text-transform:uppercase;font-size:31px;letter-spacing:.5px}
+.standard-grid p{margin:0;color:#5b5b5b;line-height:1.68}
+
+.premium-quote-strip{position:relative;overflow:hidden;background:#111;color:#fff;padding:44px 6vw;border-top:1px solid rgba(255,255,255,.12);border-bottom:1px solid rgba(255,255,255,.12)}
+.premium-quote-strip:before{content:"";position:absolute;inset:0;background:
+  radial-gradient(circle at 12% 50%,rgba(226,26,22,.18),transparent 22%),
+  linear-gradient(115deg,transparent 0 48%,rgba(255,255,255,.08) 48.2%,transparent 48.8%);
+pointer-events:none}
+.premium-quote-strip div{max-width:1480px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:28px;position:relative;z-index:1}
+.premium-quote-strip span{font-family:Oswald,Arial,sans-serif;text-transform:uppercase;letter-spacing:1.7px;color:#ff5a55;font-size:14px}
+.premium-quote-strip strong{font-family:Oswald,Arial,sans-serif;text-transform:uppercase;letter-spacing:1px;font-size:clamp(25px,3.2vw,48px);line-height:1.05;text-align:right;max-width:760px}
+
+/* Subtler architectural treatment below projects. */
+.architectural-section:before,.architectural-section:after,.blueprint-section:after{opacity:.45}
+.testimonial-card,.proof-card,.contact form{box-shadow:0 18px 55px rgba(0,0,0,.08)}
+.faq-list details:hover,.faq-list details[open]{padding-left:18px;padding-right:18px}
+
+@media(max-width:900px){
+  .standard-inner{grid-template-columns:1fr;align-items:start}
+  .standard-inner .eyebrow{grid-column:auto;margin-bottom:0}
+  .standard-grid{grid-template-columns:1fr}
+  .premium-quote-strip div{display:block}
+  .premium-quote-strip strong{display:block;text-align:left;margin-top:12px}
+}
+@media(max-width:580px){
+  .delivery-standard{padding-top:76px;padding-bottom:76px}
+  .standard-inner{gap:20px;margin-bottom:30px}
+  .standard-inner h2{font-size:48px}
+  .standard-inner h2:after{width:56px;height:3px;margin-top:16px}
+  .standard-grid article{min-height:auto;padding:30px 26px}
+  .standard-grid strong{font-size:28px}
+  .premium-quote-strip{padding:36px 6vw}
+}

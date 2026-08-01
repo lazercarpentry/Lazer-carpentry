@@ -1,37 +1,29 @@
-LAZER CARPENTRY WEBSITE V27 - ARCHITECTURAL PREMIUM PASS
+LAZER CARPENTRY WEBSITE V28 - CLEANER PREMIUM BALANCE
 
-This is the full V27 website package.
+This is the full V28 website package.
 
-V27 upgrades included:
-- Softer architectural background shapes across the site.
-- Dimmed blueprint/grid detailing in section backgrounds.
-- Architectural corner framing on hero and gallery pages.
-- More premium section title underline treatment.
-- Service card background numbering.
-- Project card architectural numbering.
-- More refined proof rail and premium card depth.
-- Stronger gallery image numbering and framed gallery hero areas.
-- Refined contact, footer, testimonial and compliance visual depth.
-- All V26 upgrades are preserved:
-  - Animated hero grid/noise overlay
-  - Scroll progress bar
-  - Sticky nav polish
-  - Hero proof badges
-  - Project filters
-  - Project hover spotlight effects
-  - Gallery page upgrade
-  - Cleaner FAQ behaviour
-- All V25 content is preserved:
-  - Full homepage
-  - All project galleries and photos
-  - Project-specific descriptions
-  - Testimonials
-  - FAQ
-  - Fully licensed / insured section
-  - Email + Instagram only
-  - No phone number anywhere
-  - MIO + Timber description fixes
-  - Mobile fixes
+V28 updates included:
+- Removed the crowded red/grey architectural overlays from the first cover page.
+- Removed the project card background numbers so the photos stay cleaner.
+- Reduced project overlay intensity so images are more visible.
+- Kept the premium hover/filter system from V26/V27.
+- Added a new premium Delivery Standard section below Projects.
+- Added a premium quote strip below Testimonials to balance the bottom half of the site.
+- Subtled down architectural effects so the site feels premium without taking away from the work.
+
+Preserved:
+- Full homepage
+- All project galleries and photos
+- Project-specific descriptions
+- Testimonials
+- FAQ
+- Fully licensed / insured section
+- Email + Instagram only
+- No phone number anywhere
+- MIO + Timber description fixes
+- Mobile fixes
+- Project filters
+- Scroll progress bar
 
 GitHub upload instructions:
 1. Open this folder.
