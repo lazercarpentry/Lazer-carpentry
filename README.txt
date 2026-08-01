@@ -1,21 +1,26 @@
-LAZER CARPENTRY WEBSITE V26 - PREMIUM PASS
+LAZER CARPENTRY WEBSITE V27 - ARCHITECTURAL PREMIUM PASS
 
-This is the full premium upgrade package.
+This is the full V27 website package.
 
-V26 upgrades included:
-- Premium hero overlays with subtle grid/noise motion.
-- Stronger hero proof badges.
-- New premium capability rail below the hero banner.
-- Scroll progress bar.
-- More polished sticky navigation.
-- Service card lift/edge animation.
-- Project hover spotlight effects.
-- Project category filters.
-- Stronger project card depth and hover states.
-- Gallery page visual upgrade.
-- FAQ now behaves cleaner with one item open at a time.
-- Better form focus styling.
-- More premium CTA movement.
+V27 upgrades included:
+- Softer architectural background shapes across the site.
+- Dimmed blueprint/grid detailing in section backgrounds.
+- Architectural corner framing on hero and gallery pages.
+- More premium section title underline treatment.
+- Service card background numbering.
+- Project card architectural numbering.
+- More refined proof rail and premium card depth.
+- Stronger gallery image numbering and framed gallery hero areas.
+- Refined contact, footer, testimonial and compliance visual depth.
+- All V26 upgrades are preserved:
+  - Animated hero grid/noise overlay
+  - Scroll progress bar
+  - Sticky nav polish
+  - Hero proof badges
+  - Project filters
+  - Project hover spotlight effects
+  - Gallery page upgrade
+  - Cleaner FAQ behaviour
 - All V25 content is preserved:
   - Full homepage
   - All project galleries and photos
