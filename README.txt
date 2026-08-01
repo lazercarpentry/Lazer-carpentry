@@ -1,11 +1,16 @@
-LAZER CARPENTRY WEBSITE V23 - CONTACT UPDATE
+LAZER CARPENTRY WEBSITE V24 - PROJECT DESCRIPTIONS
 
 Updates included:
-- Removed Travis' phone number from the site.
-- Removed all phone-link buttons.
-- Mobile bottom action bar now shows Email and Instagram.
-- Contact section now only shows info@lazercarpentry.com.au and @lazercarpentry.
-- All previous galleries, reviews, FAQ and trust sections are preserved.
-- Cache-busting updated to v=23.
+- Replaced the generic gallery description on every project page.
+- Each gallery page now has project-specific copy.
+- All previous galleries, reviews, FAQ, no-phone contact update and mobile fixes are preserved.
+- Cache-busting updated to v=24.
 
-Upload everything inside this folder to the main GitHub repository level, replace existing files, and keep CNAME.
+Upload instructions:
+1. Open this ZIP and go inside the unzipped V24 folder.
+2. Select every file inside the folder.
+3. Upload all selected files to the main GitHub repository level.
+4. Replace existing files when prompted.
+5. Keep the existing CNAME file.
+6. Commit the upload.
+7. Wait 1-3 minutes, then hard refresh the live site.
