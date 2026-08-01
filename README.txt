@@ -1,15 +1,22 @@
-LAZER CARPENTRY WEBSITE V28 - CLEANER PREMIUM BALANCE
+LAZER CARPENTRY WEBSITE V29 - iOS / PHONE PREMIUM PASS
 
-This is the full V28 website package.
+This is the full V29 website package.
 
-V28 updates included:
-- Removed the crowded red/grey architectural overlays from the first cover page.
-- Removed the project card background numbers so the photos stay cleaner.
-- Reduced project overlay intensity so images are more visible.
-- Kept the premium hover/filter system from V26/V27.
-- Added a new premium Delivery Standard section below Projects.
-- Added a premium quote strip below Testimonials to balance the bottom half of the site.
-- Subtled down architectural effects so the site feels premium without taking away from the work.
+V29 updates included:
+- Desktop version preserved.
+- Final phone/iOS-only premium styling pass.
+- More premium mobile hero layout.
+- Mobile quick navigation chips.
+- Cleaner premium mobile navigation menu.
+- Better iPhone project cards with rounded premium framing.
+- More visible project photos on mobile.
+- Horizontal premium project filter chips.
+- Mobile project hint text.
+- Cleaner service cards on mobile.
+- Better mobile Delivery Standard section.
+- Premium rounded testimonials, FAQ cards and contact form.
+- Upgraded floating mobile Email / Instagram action bar.
+- Gallery pages refined for iPhone with premium rounded hero/card layout.
 
 Preserved:
 - Full homepage
@@ -21,9 +28,7 @@ Preserved:
 - Email + Instagram only
 - No phone number anywhere
 - MIO + Timber description fixes
-- Mobile fixes
-- Project filters
-- Scroll progress bar
+- All desktop styling from V28
 
 GitHub upload instructions:
 1. Open this folder.
